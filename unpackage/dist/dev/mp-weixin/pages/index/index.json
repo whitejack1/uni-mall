@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "feature-view": "/components/index/featureView/featureView",
+    "tab-control": "/components/common/tabControl/tabControl",
+    "recommend": "/components/index/recommond/recommond"
+  }
+}

@@ -1,0 +1,25 @@
+
+.tab-control{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	text-align: center;
+	font-size: 15px;
+}
+.tab-caontrol-item{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	height: 40px;
+	line-height: 40px;
+}
+.tab-caontrol-item ._span{
+	padding: 5px;
+}
+.active{
+	color: var(--color-high-text);
+}
+.active ._span{
+	border-bottom: 3px solid var(--color-tint);
+}
+

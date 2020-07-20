@@ -1,0 +1,168 @@
+
+.feature image{
+	width: 100%;
+}
+
+
+.tab-control{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	text-align: center;
+	font-size: 15px;
+}
+.tab-caontrol-item{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	height: 40px;
+	line-height: 40px;
+}
+.tab-caontrol-item ._span{
+	padding: 5px;
+}
+.active{
+	color: var(--color-high-text);
+}
+.active ._span{
+	border-bottom: 3px solid var(--color-tint);
+}
+
+
+.recommond{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	text-align: center;
+	font-size: 12px;
+	padding: 10px 0 20px;
+	border-bottom: 8px solid #eee;
+}
+.recommond-item{
+	display: 1;
+}
+.recommond-item image{
+	width: 188rpx;
+	height: 180rpx;
+	margin-bottom: 10px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+} */
+.home {
+	width: 750rpx;
+	height: 375rpx;
+}
+.image{
+	height: 100%;
+	width: 100%;
+}
+.tab-control-new{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 100px
+}
+

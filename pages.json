@@ -1,0 +1,78 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+	    ,{
+            "path" : "pages/category/category",
+            "style" : {
+				"navigationBarTitleText": "分类"
+			}
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" : {
+				"navigationBarTitleText": "购物车"
+			}
+        }
+        ,{
+            "path" : "pages/profile/profile",
+            "style" : {
+				"navigationBarTitleText": "个人中心"
+			}
+        }
+        ,{
+            "path" : "components/index/featureView/featureView",
+            "style" : {}
+        }
+        ,{
+            "path" : "components/common/tabControl/tabControl",
+            "style" : {}
+        }
+        ,{
+            "path" : "components/index/recommond/recommond",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "杨唐商城",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		// "enablePullDownRefresh": true
+	},
+	"tabBar": {
+		 "color": "#444",
+		"backgroundColor": "#e0e0e0",
+		"enablePullDownRefresh": true,
+		"list": [
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/image/tabbar/home.png",
+				"selectedIconPath":"static/image/tabbar/home_active.png"
+			},
+			{
+				"text":"分类",
+				"pagePath":"pages/category/category",
+				"iconPath":"static/image/tabbar/category.png",
+				"selectedIconPath":"static/image/tabbar/category_active.png"
+			},
+			{
+				"text":"购物车",
+				"pagePath":"pages/cart/cart",
+				"iconPath":"static/image/tabbar/cart.png",
+				"selectedIconPath":"static/image/tabbar/cart_active.png"
+			},
+			{
+				"text":"个人中心",
+				"pagePath":"pages/profile/profile",
+				"iconPath":"static/image/tabbar/profile.png",
+				"selectedIconPath":"static/image/tabbar/profile_active.png"
+			}
+		]
+	}
+}

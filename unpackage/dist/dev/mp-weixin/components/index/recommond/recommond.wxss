@@ -1,0 +1,19 @@
+
+.recommond{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	text-align: center;
+	font-size: 12px;
+	padding: 10px 0 20px;
+	border-bottom: 8px solid #eee;
+}
+.recommond-item{
+	display: 1;
+}
+.recommond-item image{
+	width: 188rpx;
+	height: 180rpx;
+	margin-bottom: 10px
+}
+
